@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                        <div class="logo-text">Alisson Figueira</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Portuguese</a></li>
+                        <li><a href="">Skills</a></li>
+                    
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="/img/logo_Adev.png" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h4>Hello, i'm <span class="">Backend Developer</span></h4>
+                    <h1>Alisson Figueira</h1>
+                    <p>I am a technology student with an interest in software development.
+This portfolio showcases some of the projects I have developed during my studies, where I apply knowledge in programming, databases, and web development.
+I am always looking for new challenges and opportunities to grow in the technology field.
+                    </p>    
+
+                    <div class="btn-group">
+                        <a href="https://w.app/taszmk" class="btn">Contato</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.instagram.com/f1gueiraxx_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Alisson3Rdev"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/alisson-eliabi-figueira-2a6717319/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        /*Criando um botão para mostrar e esconder a aba do menu*/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks")
+        var link=document.querySelector(".navlinks li")
+
+        togglebtn.addEventListener("click",function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open") 
+        })
+    </script>
+</body>
+</html>
