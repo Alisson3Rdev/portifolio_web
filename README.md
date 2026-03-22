@@ -16,5 +16,8 @@ Criar animações
 Melhorar responsividade
 Integrar com projetos reais
 
-![preview](C:\Users\Eliezer\Pictures\Screenshots\preview.png)
-![preview](C:\Users\Eliezer\Pictures\Screenshots\preview2.png)
+# Previews 
+<p align="center">
+  <img src="./img/preview.png.png" width="400"><br><br>
+  <img src="./img/preview2.png.png" width="400">
+</p>
